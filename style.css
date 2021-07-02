@@ -38,7 +38,7 @@ section.hero h1 {
 
 /* Navbar */
 
-header {
+header.sticky-navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -47,16 +47,16 @@ header {
     transition: all 500ms ease;
 }
 
-header.scrolling {
+header.sticky-navbar.scrolling {
     background: rgba(0, 0, 0, 0.9);
     padding: 0;
 }
 
-header.scrolling ul li a {
+header.sticky-navbar.scrolling ul li a {
     color: #eee;
 }
 
-header nav {
+header.sticky-navbar nav {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -65,23 +65,23 @@ header nav {
     margin: 0 auto;
 }
 
-header .logo {
+header.sticky-navbar .logo {
     font-weight: 800;
     color: red;
     text-transform: uppercase;
     font-size: 24px;
 }
 
-header ul {
+header.sticky-navbar ul {
     display: flex;
     list-style: none;
 }
 
-header ul li {
+header.sticky-navbar ul li {
     margin: 0 24px;
 }
 
-header ul li a {
+header.sticky-navbar ul li a {
     text-decoration: none;
     color: #222;
     font-weight: 800;
